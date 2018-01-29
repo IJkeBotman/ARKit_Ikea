@@ -12,6 +12,8 @@
 		0A59C52A201E360300EDBD1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A59C528201E360300EDBD1A /* Main.storyboard */; };
 		0A59C52C201E360400EDBD1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A59C52B201E360400EDBD1A /* Assets.xcassets */; };
 		0A59C52F201E360400EDBD1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A59C52D201E360400EDBD1A /* LaunchScreen.storyboard */; };
+		0A59C537201E395900EDBD1A /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A59C536201E395900EDBD1A /* ItemCell.swift */; };
+		0A88F57C201F1F4200A822FD /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A88F57B201F1F4100A822FD /* Models.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0A59C52B201E360400EDBD1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A59C52E201E360400EDBD1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A59C530201E360400EDBD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A59C536201E395900EDBD1A /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		0A88F57B201F1F4100A822FD /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0A59C52B201E360400EDBD1A /* Assets.xcassets */,
 				0A59C52D201E360400EDBD1A /* LaunchScreen.storyboard */,
 				0A59C530201E360400EDBD1A /* Info.plist */,
+				0A59C536201E395900EDBD1A /* ItemCell.swift */,
+				0A88F57B201F1F4100A822FD /* Models.scnassets */,
 			);
 			path = ARKit_Ikea;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A59C52F201E360400EDBD1A /* LaunchScreen.storyboard in Resources */,
+				0A88F57C201F1F4200A822FD /* Models.scnassets in Resources */,
 				0A59C52C201E360400EDBD1A /* Assets.xcassets in Resources */,
 				0A59C52A201E360300EDBD1A /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			files = (
 				0A59C527201E360300EDBD1A /* ViewController.swift in Sources */,
 				0A59C525201E360300EDBD1A /* AppDelegate.swift in Sources */,
+				0A59C537201E395900EDBD1A /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
